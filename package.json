@@ -1,10 +1,13 @@
 {
   "name": "appwithts",
   "version": "1.0.0",
-  "description": "��#\u0000 \u0000M\u0000y\u0000 \u0000F\u0000i\u0000r\u0000s\u0000t\u0000 \u0000A\u0000p\u0000p\u0000 \u0000w\u0000i\u0000t\u0000h\u0000 \u0000T\u0000y\u0000p\u0000e\u0000S\u0000c\u0000r\u0000i\u0000p\u0000t\u0000\r\u0000 \u0000",
+  "description": "AppWithTS",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "t": "tsc",
+    "tn": "ts-node src/index.ts",
+    "start": "node build/src",
+    "d": "nodemon"
   },
   "repository": {
     "type": "git",
@@ -18,8 +21,17 @@
   },
   "homepage": "https://github.com/xXDeathAbyssXx/AppWithTs#readme",
   "dependencies": {
+    "dotenv": "^16.0.0",
     "express": "^4.17.3",
     "express-handlebars": "^6.0.2",
     "mongoose": "^6.2.3"
+  },
+  "devDependencies": {
+    "@types/dotenv": "^8.2.0",
+    "@types/express": "^4.17.13",
+    "@types/mongoose": "^5.11.97",
+    "nodemon": "^2.0.15",
+    "ts-node": "^10.5.0",
+    "typescript": "^4.5.5"
   }
 }
