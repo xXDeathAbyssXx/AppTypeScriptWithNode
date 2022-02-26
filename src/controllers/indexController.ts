@@ -1,10 +1,11 @@
-import { Request, Response } from "express";
+import { Request, Response } from 'express';
 
 class IndexController {
-    public index(req: Request, res: Response) {
-        res.render('index', { title: "Welcome to Block App" });
+
+    public index (req: Request, res: Response) {
+        res.render('index', { title: 'Welcome to Books App'});        
     }
+
 }
 
-const indexController = new IndexController();
-export default indexController;
+export const indexController = new IndexController();

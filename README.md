@@ -1,1 +1,2 @@
-﻿# My First App in TypeScript with NodeJS
+# Screenshot
+![](docs/screenshot.png)

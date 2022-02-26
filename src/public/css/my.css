@@ -1,0 +1,11 @@
+.myc-flx-navbar {
+  justify-content: flex-end !important;
+}
+
+.myc-save-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  padding: 10px 10px 0px;
+}

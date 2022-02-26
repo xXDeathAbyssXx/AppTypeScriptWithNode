@@ -1,12 +1,9 @@
-import { Router, Request } from 'express';
-import indexController from '../controllers/indexController'
+import { Router} from 'express';
 
-const router: Router = Router();
+const router: Router = Router(); 
+
+import { indexController } from '../controllers/indexController';
 
 router.get('/', indexController.index);
-
-router.get('/add', (req: Request, res) => {
-    res.send('Form')
-});
 
 export default router;
