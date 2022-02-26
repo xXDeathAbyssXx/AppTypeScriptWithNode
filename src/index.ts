@@ -1,5 +1,6 @@
 import express from 'express';
 import path from 'path';
+import session from 'express-session';
 import { engine } from 'express-handlebars';
 import mongoose from 'mongoose';
 import dotenv from 'dotenv';

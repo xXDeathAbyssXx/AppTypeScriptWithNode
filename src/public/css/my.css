@@ -1,6 +1,7 @@
 .body {
-  background: #000;
+  background: #000 !important;
 }
+
 .myc-flx-navbar {
   justify-content: flex-end !important;
 }
@@ -14,4 +15,23 @@
 }
 
 .myc-btn-rmall {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.myc-form-ta-c {
+  text-align: center;
+}
+
+.myc-del-all-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
 }
