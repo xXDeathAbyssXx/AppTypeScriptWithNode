@@ -1,2 +1,2 @@
 # Screenshot
-![](docs/screenshot.png)
+![](docs/app.png)
