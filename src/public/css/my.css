@@ -1,3 +1,6 @@
+.body {
+  background: #000;
+}
 .myc-flx-navbar {
   justify-content: flex-end !important;
 }
@@ -8,4 +11,7 @@
   align-items: center;
   flex-direction: row;
   padding: 10px 10px 0px;
+}
+
+.myc-btn-rmall {
 }
