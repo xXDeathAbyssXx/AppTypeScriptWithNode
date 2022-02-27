@@ -6,4 +6,4 @@ const BlockSchema = new Schema({
     id: { type: String, required: true }
 })
 
-export default model('Block', BlockSchema)
+export default model('Block', BlockSchema);
