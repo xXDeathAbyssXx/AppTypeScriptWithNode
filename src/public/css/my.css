@@ -1,9 +1,9 @@
-.body {
-  background: #000 !important;
-}
-
 .myc-flx-navbar {
   justify-content: flex-end !important;
+}
+
+.myc-navbar-color {
+  background-color: #485785 !important;
 }
 
 .myc-save-btn {
